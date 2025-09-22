@@ -28,6 +28,7 @@ nav {
     background-color: #F45D8B;
 }
 nav > div {
+    max-width: 1500px;
     width: 80%;
 
     display: flex;
@@ -104,6 +105,7 @@ header h1 {
 }
 
 section {
+    max-width: 1500px;
     width: 80%;
     padding: 50px 0;
 }
@@ -160,6 +162,7 @@ footer {
     background-color: #F45D8B;
 }
 footer div {
+    max-width: 1500px;
     width: 80%;
 
     display: flex;
@@ -170,7 +173,7 @@ footer div span {
     font-size: 1.5em;
 }
 footer div a {
-    color: #1225cf;
+    color: white;
     font-size: 1.2em;
 }
 
