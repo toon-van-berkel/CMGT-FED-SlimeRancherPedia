@@ -54,7 +54,7 @@ nav div div a {
 .HamburgerMenu {
     display: none;
 }
-.HamburgerMenu button {
+.HamburgerMenu .Button {
     width: 50px;
     height: 50px;
 
@@ -81,8 +81,8 @@ nav div div a {
 .HamburgerMenu:focus-within > div {
     display: flex;
 }
-.HamburgerMenu:hover > button,
-.HamburgerMenu:focus-within > button {
+.HamburgerMenu:hover > .Button,
+.HamburgerMenu:focus-within > .Button {
     background-image: url('../assets/images/CloseHamburger.png');
 }
 header {
